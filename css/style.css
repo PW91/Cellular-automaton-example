@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+}
+
+#wrapper {
+	text-align: center;
+}
+
+.element {
+	width: 1px;
+	height: 1px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.element.active {
+	background-color: black;
+}
+
+.element.inactive {
+	background-color: white;
+}
